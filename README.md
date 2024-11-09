@@ -1,4 +1,4 @@
-# Machine Learning - Tensorflow.js, 
+# Machine Learning - Tensorflow.js
 
 ## Steps 
 - Prepare Data: You prepare the data, separating features (inputs) and labels (outputs).

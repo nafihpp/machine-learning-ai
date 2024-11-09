@@ -1,8 +1,13 @@
 import * as tf from '@tensorflow/tfjs';
 
-// Prepare data: y = 2x + 1
+//Tensor: A multi-dimensional array. In this case, tensor1d means 1-dimensional.
+
+// This is the input data (independent variable)
 const x_train = tf.tensor1d([1, 2, 3, 4, 5]);
+//This is the target/output data (dependent variable)
 const y_train = tf.tensor1d([3, 5, 7, 9, 11]);
+
+
 
 // Create a simple model
 const model = tf.sequential();
